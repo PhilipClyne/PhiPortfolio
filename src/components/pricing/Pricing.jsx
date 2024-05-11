@@ -20,7 +20,7 @@ const Pricing = () => {
           <h3 className="price">
             <em>$</em> 9 <span>Month</span>
           </h3>
-          <a href="" className="btn">
+          <a href="https://github.com/PhilipClyne" className="btn">
             Get Started
           </a>
         </div>
@@ -36,7 +36,7 @@ const Pricing = () => {
           <h3 className="price">
             <em>$</em> 9 <span>Month</span>
           </h3>
-          <a href="" className="btn">
+          <a href="https://github.com/PhilipClyne" className="btn">
             Get Started
           </a>
         </div>
@@ -51,7 +51,7 @@ const Pricing = () => {
           <h3 className="price">
             <em>$</em> 9 <span>Month</span>
           </h3>
-          <a href="" className="btn">
+          <a href="https://github.com/PhilipClyne" className="btn">
             Get Started
           </a>
         </div>

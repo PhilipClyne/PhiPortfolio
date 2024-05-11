@@ -17,7 +17,7 @@ const About = () => {
               và backend, tôi mong muốn tìm được một công việc phù hợp với sở
               trường của mình
             </p>
-            <a href="" className="btn">
+            <a href="../CVphi.pdf" download="Lê Hoàng Phi.pdf" className="btn">
               Download CV
             </a>
           </div>

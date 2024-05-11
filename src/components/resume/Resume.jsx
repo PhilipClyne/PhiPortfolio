@@ -10,17 +10,20 @@ const Resume = () => {
 
       <div className="resume__container grid">
         <div className="timeline grid">
-          {Data.map((val, id) => {
-            if (val.category === "education") {
+          {Data.map((val, index) => {
+            if (val.category === "experience") {
               return (
                 <Card
-                  key={id}
+                  key={index}
                   icon={val.icon}
                   title={val.title}
                   year={val.year}
                   desc={val.desc}
                 />
               );
+            } else {
+              // Return null or an empty element to avoid breaking the map
+              return null; // Or <></> (empty element)
             }
           })}
         </div>
@@ -37,6 +40,9 @@ const Resume = () => {
                   desc={val.desc}
                 />
               );
+            } else {
+              // Return null or an empty element to avoid breaking the map
+              return null; // Or <></> (empty element)
             }
           })}
         </div>
